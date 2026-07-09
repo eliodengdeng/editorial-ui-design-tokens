@@ -1,0 +1,233 @@
+:root {
+  /* Editorial UI Design Tokens foundation tokens */
+
+  /* Typography */
+  --eui-font-sans: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --eui-font-display: "Playfair Display", Georgia, serif;
+  --eui-font-code: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --eui-font-cjk: "Noto Sans TC", "PingFang TC", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", sans-serif;
+
+  --eui-font-weight-light: 300;
+  --eui-font-weight-normal: 400;
+  --eui-font-weight-medium: 500;
+  --eui-font-weight-bold: 600;
+  --eui-font-weight-extra-bold: 700;
+  --eui-font-weight-black: 800;
+
+  --eui-type-eyebrow-size: 11px;
+  --eui-type-eyebrow-line: 13px;
+  --eui-type-eyebrow-tracking: 0;
+
+  --eui-type-display-xl-size: 74px;
+  --eui-type-display-xl-line: 72px;
+  --eui-type-display-xl-tracking: -0.07em;
+
+  --eui-type-display-lg-size: 56px;
+  --eui-type-display-lg-line: 0.98;
+  --eui-type-display-lg-tracking: -0.07em;
+
+  --eui-type-heading-lg-size: 44px;
+  --eui-type-heading-lg-line: 44px;
+  --eui-type-heading-lg-tracking: -0.07em;
+
+  --eui-type-heading-md-size: 30px;
+  --eui-type-heading-md-line: 1.08;
+  --eui-type-heading-sm-size: 22px;
+  --eui-type-heading-sm-line: 1.25;
+
+  --eui-type-body-xl-size: 22px;
+  --eui-type-body-xl-line: 30px;
+  --eui-type-body-lg-size: 20px;
+  --eui-type-body-lg-line: 27px;
+  --eui-type-body-md-size: 18px;
+  --eui-type-body-md-line: 26px;
+  --eui-type-body-sm-size: 16px;
+  --eui-type-body-sm-line: 24px;
+  --eui-type-caption-size: 14px;
+  --eui-type-caption-line: 1.35;
+
+  --eui-type-mobile-title-size: 36px;
+  --eui-type-mobile-title-line: 38px;
+  --eui-type-mobile-body-size: 16px;
+  --eui-type-mobile-body-line: 23px;
+
+  /* Color primitives */
+  --eui-color-ink: #222222;
+  --eui-color-ink-hover: #383838;
+  --eui-color-ink-soft: #4e4e4e;
+  --eui-color-gray-700: #7a7a7a;
+  --eui-color-gray-500: #a7a7a7;
+  --eui-color-gray-300: #dedede;
+  --eui-color-gray-200: #ededed;
+  --eui-color-paper: #f8f8f8;
+  --eui-color-white: #ffffff;
+  --eui-color-orange: #fa5d29;
+  --eui-color-orange-rgb: 250, 93, 41;
+  --eui-color-orange-soft: #ff9667;
+  --eui-color-blue: #49b3fc;
+  --eui-color-green: #aaeec4;
+  --eui-color-yellow: #fff083;
+  --eui-color-purple: #502bd8;
+  --eui-color-featured: #f1f0ea;
+  --eui-color-active: #111111;
+
+  --eui-color-ink-rgb: 34, 34, 34;
+  --eui-color-white-rgb: 255, 255, 255;
+  --eui-color-ink-70: rgba(var(--eui-color-ink-rgb), 0.70);
+  --eui-color-ink-40: rgba(var(--eui-color-ink-rgb), 0.40);
+  --eui-color-ink-30: rgba(var(--eui-color-ink-rgb), 0.30);
+  --eui-color-ink-18: rgba(var(--eui-color-ink-rgb), 0.18);
+  --eui-color-ink-10: rgba(var(--eui-color-ink-rgb), 0.10);
+  --eui-color-white-72: rgba(var(--eui-color-white-rgb), 0.72);
+  --eui-color-white-68: rgba(var(--eui-color-white-rgb), 0.68);
+  --eui-color-white-64: rgba(var(--eui-color-white-rgb), 0.64);
+  --eui-color-white-50: rgba(var(--eui-color-white-rgb), 0.50);
+  --eui-color-white-20: rgba(var(--eui-color-white-rgb), 0.20);
+
+  /* Semantic colors */
+  --eui-surface-page: var(--eui-color-paper);
+  --eui-surface-card: var(--eui-color-white);
+  --eui-surface-inverse: var(--eui-color-ink);
+  --eui-surface-inverse-raised: var(--eui-color-ink-hover);
+  --eui-text-primary: var(--eui-color-ink);
+  --eui-text-secondary: var(--eui-color-ink-70);
+  --eui-text-muted: var(--eui-color-ink-40);
+  --eui-text-inverse: var(--eui-color-white);
+  --eui-text-inverse-muted: var(--eui-color-white-50);
+  --eui-border-default: var(--eui-color-gray-500);
+  --eui-border-subtle: var(--eui-color-ink-10);
+  --eui-border-inverse: var(--eui-color-white-20);
+  --eui-accent-primary: var(--eui-color-orange);
+  --eui-accent-secondary: var(--eui-color-blue);
+  --eui-accent-success: var(--eui-color-green);
+  --eui-accent-highlight: var(--eui-color-yellow);
+  --eui-accent-premium: var(--eui-color-purple);
+  --eui-media-placeholder-bg: var(--eui-color-gray-200);
+  --eui-media-placeholder-bg-soft: #f3f3f1;
+  --eui-media-placeholder-bg-warm: var(--eui-color-featured);
+  --eui-media-placeholder-border: transparent;
+
+  /* Spacing */
+  --eui-space-1: 4px;
+  --eui-space-2: 8px;
+  --eui-space-3: 12px;
+  --eui-space-4: 16px;
+  --eui-space-5: 20px;
+  --eui-space-6: 24px;
+  --eui-space-7: 28px;
+  --eui-space-8: 32px;
+  --eui-space-10: 40px;
+  --eui-space-12: 48px;
+  --eui-space-15: 60px;
+  --eui-space-18: 72px;
+  --eui-space-20: 80px;
+
+  /* Layout */
+  --eui-layout-gutter-desktop: 40px;
+  --eui-layout-gutter-mobile: 24px;
+  --eui-layout-content-max: 1344px;
+  --eui-layout-wide-max: 1440px;
+  --eui-shell-content: min(var(--eui-layout-content-max), calc(100vw - 80px));
+  --eui-shell-page: min(var(--eui-layout-wide-max), 100vw);
+  --eui-shell-mobile: calc(100vw - 48px);
+  --eui-grid-gap: var(--eui-space-4);
+  --eui-section-padding-y: var(--eui-space-20);
+  --eui-section-padding-y-mobile: var(--eui-space-15);
+
+  /* Radius */
+  --eui-radius-none: 0;
+  --eui-radius-sm: 4px;
+  --eui-radius-md: 8px;
+  --eui-radius-lg: 12px;
+  --eui-radius-xl: 16px;
+  --eui-radius-2xl: 20px;
+  --eui-radius-code: 19px;
+  --eui-radius-button: 8px;
+  --eui-radius-full: 72px;
+  --eui-radius-circle: 999px;
+
+  /* Borders and shadows */
+  --eui-border-hairline: 0.5px;
+  --eui-border-thin: 1px;
+  --eui-shadow-none: none;
+  --eui-shadow-popover: 0 18px 48px rgba(var(--eui-color-ink-rgb), 0.10);
+  --eui-shadow-focus: 0 0 0 3px rgba(var(--eui-color-orange-rgb), 0.22);
+
+  /* Buttons */
+  --eui-button-height-sm: 42px;
+  --eui-button-height-md: 48px;
+  --eui-button-height-lg: 60px;
+  --eui-button-height-xl: 72px;
+  --eui-button-padding-x-sm: 20px;
+  --eui-button-padding-x-md: 24px;
+  --eui-button-padding-x-lg: 1.6em;
+  --eui-button-font-size-sm: 14px;
+  --eui-button-font-size-md: 16px;
+  --eui-button-font-size-lg: 18px;
+  --eui-button-icon-gap: 8px;
+  --eui-button-wide-icon-gap: 20px;
+  --eui-button-radius: var(--eui-radius-button);
+  --eui-button-radius-pill: var(--eui-radius-full);
+  --eui-button-pressed-transform: translateY(1px) scale(0.99);
+
+  /* Components */
+  --eui-header-height: 76px;
+  --eui-header-height-mobile: 68px;
+  --eui-nav-button-height: 42px;
+  --eui-popover-width: min(820px, calc(100vw - 80px));
+  --eui-popover-radius: calc(var(--eui-radius-button) + var(--eui-space-2));
+  --eui-agent-radius: calc(var(--eui-radius-button) + var(--eui-space-3));
+  --eui-agent-max-width: 780px;
+  --eui-agent-textarea-min-height: 96px;
+  --eui-agent-textarea-max-lines: 5;
+  --eui-scenario-card-padding: clamp(var(--eui-space-4), 1.3vw, var(--eui-space-6));
+  --eui-scenario-cta-height: 42px;
+  --eui-stable-panel-height: clamp(548px, 56vw, 660px);
+  --eui-stable-panel-height-mobile: auto;
+  --eui-stable-panel-media-min-height-mobile: 420px;
+  --eui-model-card-ratio: 9 / 16;
+  --eui-business-marquee-duration: 48s;
+  --eui-business-marquee-duration-alt: 56s;
+
+  /* Motion */
+  --eui-ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --eui-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --eui-motion-instant: 0.001ms;
+  --eui-motion-press: 120ms;
+  --eui-motion-fast: 150ms;
+  --eui-motion-popover: 160ms;
+  --eui-motion-panel: 240ms;
+  --eui-motion-base: 300ms;
+  --eui-motion-media-fade-out: 220ms;
+  --eui-motion-media-fade-in: 300ms;
+  --eui-motion-entrance: 650ms;
+  --eui-motion-model-visual-in: 740ms;
+  --eui-motion-model-item-in: 900ms;
+  --eui-motion-image-hover: 300ms;
+  --eui-motion-image-deep-hover: 700ms;
+  --eui-motion-stagger-tight: 55ms;
+  --eui-motion-stagger-base: 100ms;
+  --eui-motion-stagger-loose: 140ms;
+  --eui-motion-hero-cycle: 18s;
+  --eui-motion-hero-slide-delay: 4.5s;
+  --eui-transition-button: color var(--eui-motion-base), background var(--eui-motion-base), border var(--eui-motion-base), transform var(--eui-motion-press);
+  --eui-transition-fast-state: background-color var(--eui-motion-press) var(--eui-ease-standard), border-color var(--eui-motion-press) var(--eui-ease-standard), color var(--eui-motion-press) var(--eui-ease-standard);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --eui-shell-content: var(--eui-shell-mobile);
+    --eui-section-padding-y: var(--eui-section-padding-y-mobile);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: var(--eui-motion-instant) !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: var(--eui-motion-instant) !important;
+  }
+}

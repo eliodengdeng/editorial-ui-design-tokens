@@ -1,0 +1,31 @@
+{
+  "name": "editorial-ui-design-tokens",
+  "version": "0.1.0",
+  "description": "Editorial design tokens for building refined, magazine-like, responsive web interfaces.",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "style": "tokens.css",
+  "files": [
+    "tokens.css",
+    "tailwind.preset.ts",
+    "showcase.html",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./tokens.css": "./tokens.css",
+    "./tailwind.preset": "./tailwind.preset.ts"
+  },
+  "scripts": {
+    "preview": "python3 -m http.server 8123"
+  },
+  "keywords": [
+    "design-tokens",
+    "editorial-design",
+    "css-variables",
+    "tailwind-preset",
+    "responsive-design",
+    "frontend"
+  ]
+}
