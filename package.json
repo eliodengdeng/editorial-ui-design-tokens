@@ -27,5 +27,13 @@
     "tailwind-preset",
     "responsive-design",
     "frontend"
-  ]
+  ],
+  "homepage": "https://eliodengdeng.github.io/editorial-ui-design-tokens/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliodengdeng/editorial-ui-design-tokens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliodengdeng/editorial-ui-design-tokens/issues"
+  }
 }

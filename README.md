@@ -4,7 +4,7 @@ Editorial UI Design Tokens is a small open-source design-token system for buildi
 
 It is designed for landing pages, buyer portals, creative studios, galleries, fashion/editorial showcases, product launches, and any frontend that should feel curated rather than generic.
 
-[Open the standalone showcase](./showcase.html) to see the tokens applied to a fashion buyer studio website.
+[Open the standalone showcase](./showcase.html) or view it on GitHub Pages: https://eliodengdeng.github.io/editorial-ui-design-tokens/showcase.html
 
 ## Showcase
 
